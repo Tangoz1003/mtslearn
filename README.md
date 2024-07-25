@@ -1,5 +1,7 @@
 # mtslearn
 
+mtslearn is a Python package specifically designed for the process and analysis of medical time series (MTS) data. It provides a comprehensive set of tools for preprocessing, feature extraction, model building, and evaluation, tailored specifically for the complexities and nuances of medical time series data. The package aims to simplify the workflow for researchers and practitioners working with complex, high-dimensional medical time series datasets, such as patient monitoring data, electronic health records, and wearable device data.
+
 # FeatureExtractorAndModelEvaluator
 
 The `FeatureExtractorAndModelEvaluator` class is a comprehensive tool for extracting features from time-series data, preparing data for machine learning models, and evaluating various models. It simplifies the process of handling complex datasets, particularly in medical or clinical research.
@@ -11,12 +13,22 @@ The `FeatureExtractorAndModelEvaluator` class is a comprehensive tool for extrac
 - **Model Evaluation**: Evaluates logistic regression, Cox proportional hazards, XGBoost, and Lasso regression models.
 - **Cross-Validation**: Supports cross-validation for robust model evaluation.
 
-## Installation
-
-To use this class, ensure you have the following dependencies installed:
+## Requirments
 
 ```bash
-pip install pandas scikit-learn matplotlib seaborn lifelines xgboost imbalanced-learn
+pandas
+scikit-learn
+matplotlib
+seaborn
+lifelines
+xgboost
+imbalanced-learn
+```
+
+## Installation
+
+```bash
+pip install mtslearn
 ```
 
 ## Usage
