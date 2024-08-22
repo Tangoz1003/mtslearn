@@ -31,3 +31,8 @@ extensions = [
     'recommonmark',
     'sphinx_markdown_tables'
 ]
+
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
+}
